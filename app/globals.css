@@ -49,7 +49,7 @@
   }
 
   .header {
-    @apply text-green-700 text-32-bold md:text-36-bold;
+    @apply text-32-bold md:text-36-bold;
   }
 
   .sub-header {
@@ -207,7 +207,7 @@
   }
 
   .shad-textArea {
-    @apply bg-dark-400 placeholder:text-dark-600 border-dark-500 focus-visible:ring-0 focus-visible:ring-offset-0 !important;
+    @apply bg-dark-400 placeholder:text-dark-600 border-dark-500 text-white focus-visible:ring-0 focus-visible:ring-offset-0 !important;
   }
 
   .shad-combobox-item {
