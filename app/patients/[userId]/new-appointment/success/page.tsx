@@ -30,14 +30,14 @@ const RequestSuccess = async ({
           />
         </Link>
 
-        <section className="flex flex-col items-center">
+        <section className="flex flex-col items-center bg-slate-100">
           <Image
             src="/assets/gifs/success.gif"
             height={300}
             width={280}
             alt="success"
           />
-          <h2 className="header mb-6 max-w-[600px] text-center">
+          <h2 className="header mb-6 max-w-[600px] text-center text-white">
             Your <span className="text-green-500">appointment request</span> has
             been successfully submitted!
           </h2>
@@ -45,7 +45,7 @@ const RequestSuccess = async ({
         </section>
 
         <section className="request-details">
-          <p>Requested appointment details: </p>
+          <p className="">Requested appointment details: </p>
           <div className="flex items-center gap-3">
             <Image
               src={doctor?.image!}
@@ -73,7 +73,7 @@ const RequestSuccess = async ({
           </Link>
         </Button>
 
-        <p className="copyright">© 2024 CarePluse</p>
+        <p className="copyright">© 2024 Medical E-Card</p>
       </div>
     </div>
   );
