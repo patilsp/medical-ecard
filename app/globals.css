@@ -170,7 +170,7 @@
   }
 
   .text-14-regular {
-    @apply text-[14px] leading-[18px] font-normal;
+    @apply text-[14px] leading-[18px] font-medium text-white;
   }
 
   .text-12-regular {
@@ -349,4 +349,11 @@
 
 .PhoneInputInput::placeholder {
   color: #1a1d21;
+}
+.btn-info{
+  background: linear-gradient(122deg, #FA5560 0.01%, #B14BF4 49.90%, #4D91FF 100%);
+  padding: 5px 20px;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 600;
 }
