@@ -21,11 +21,6 @@ hideSourceMaps: true,
 disableLogger: true,
 automaticVercelMonitors: true,
 }), {
-// For all available options, see:
-// https://github.com/getsentry/sentry-webpack-plugin#options
-
-org: "medical-card",
-project: "javascript-nextjs",
 
 // Only print logs for uploading source maps in CI
 silent: !process.env.CI,
